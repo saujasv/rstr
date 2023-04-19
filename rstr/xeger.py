@@ -21,7 +21,7 @@ except ImportError:  # Python < 3.11
 # probably don't want that many repeats in your
 # generated strings. This sets an upper-bound on
 # repeats generated from + and * characters.
-STAR_PLUS_LIMIT = 100
+STAR_PLUS_LIMIT = 8
 
 
 class Xeger(RstrBase):
